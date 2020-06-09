@@ -37,4 +37,6 @@ industry_id is the primary key of industries table
 
 This command will parse the data from website and store in DB
 
+###### Note : No of pages for parsing can be changed in app/Scrapping/Parsing.php.
+
 

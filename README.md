@@ -1,4 +1,4 @@
-### Taks : 
+## Web Parsing 
 Write a website parser which will parse the given website and collect all the company related
 information and store it in a database. You need to collect maximum information of company
 like CIN, industry, class AND ALL THE FIELDS WHICH IS available on this website. You
@@ -20,12 +20,20 @@ You can use the laravel framework also.
 
 ### Steps to run projects:
 
-#### Step 1:  Update .env file with database credentials
+#### Step 1:  After downloading repository run following commands.
+>composer install
+
+Update .env file with database credentials
 #### Step 2: Run migration commands to create tables :
 > php artisan migrate
 
 #### Step 3: Run following command to parse data from websites.
 > php artisan web:parsing
+
+To parse companies information for a particular industry, run following command.
+> php artisan web:parsing --industry_id=1
+
+industry_id is the primary key of industries table
 
 This command will parse the data from website and store in DB
 

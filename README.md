@@ -18,7 +18,7 @@ Code should be generic and should be able to parse all the details of the compan
 You can use the laravel framework also.
 
 
-### Steps to run projects:
+### Steps to run project:
 
 #### Step 1:  After downloading repository run following commands.
 >composer install

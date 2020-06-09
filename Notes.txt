@@ -1,0 +1,4 @@
+1) command to create model,factory,migration and controller at same time
+2) Laravel mix - sccss and js compilation to public directory
+3) Hidden input method TYPE (@method('put'),@method('delete')) in  (Chapter 23- Forms)
+
